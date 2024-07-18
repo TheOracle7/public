@@ -1,0 +1,24 @@
+.wpt_form_file_upload_field input[type="file"] {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  opacity: 0;
+}
+
+.mdc-file-upload-field-container .mdc-form-field,
+.mdc-file-upload-field-container .mdc-text-field,
+.mdc-file-upload-field-container .file-upload-output,
+.mdc-file-upload-field-container .mdc-text-field-helper-line {
+  display: inline-block;
+}
+
+.mdc-file-upload-field-container .mdc-text-field-helper-line {
+  width: 100%;
+}
+
+.mdc-file-upload-field-container .mdc-text-field {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  opacity: 0;
+}

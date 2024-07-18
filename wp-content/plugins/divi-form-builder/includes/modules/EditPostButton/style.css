@@ -1,0 +1,4 @@
+#et-main-area:has(div.de-fb-popup.open){
+    z-index: 9999999;
+    position: relative;
+}

@@ -1,0 +1,3462 @@
+# Copyright (C) 2023 Divi Engine
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Form Builder 2.3.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/divi-form-builder\n"
+"POT-Creation-Date: 2023-04-13 13:02:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/DiviFormBuilder.php:417
+#. translators: %s: Taxonomy name.
+msgid "Invalid taxonomy: %s."
+msgstr ""
+
+#: includes/DiviFormBuilder.php:694 includes/ajaxcalls/post_ajax.php:722
+msgid "Captcha Error"
+msgstr ""
+
+#: includes/DiviFormBuilder.php:837 includes/ajaxcalls/post_ajax.php:369
+#: includes/modules/Form/Form.php:3548
+msgid "New Message Arrived"
+msgstr ""
+
+#: includes/DiviFormBuilder.php:843 includes/ajaxcalls/post_ajax.php:375
+#: includes/modules/Form/Form.php:3554
+msgid "We received your message"
+msgstr ""
+
+#: includes/ajaxcalls/post_ajax.php:707 includes/ajaxcalls/post_ajax.php:716
+msgid "Error occured during sending an email."
+msgstr ""
+
+#: includes/ajaxcalls/post_ajax.php:711
+msgid "There was a problem with sending the form, no recipient email address."
+msgstr ""
+
+#: includes/classes/class.options.php:191
+#: includes/classes/class.options.php:275
+msgid ""
+"There was a problem connecting to diviengine.com. It seems our firewall "
+"blocked you from accessing our server. Please contact support with this Ray "
+"ID: "
+msgstr ""
+
+#: includes/classes/class.options.php:193
+#: includes/classes/class.options.php:277
+msgid "There was a problem connecting to "
+msgstr ""
+
+#: includes/classes/class.options.php:225
+msgid "There was a problem deactivating the licence: "
+msgstr ""
+
+#: includes/classes/class.options.php:245
+msgid "License Key can't be empty"
+msgstr ""
+
+#: includes/classes/class.options.php:301
+msgid "There was a problem activating the licence: "
+msgstr ""
+
+#: includes/classes/class.options.php:321
+#: includes/classes/class.options.php:362
+#: includes/classes/class.options.php:741
+msgid "Divi Form Builder Software License"
+msgstr ""
+
+#: includes/classes/class.options.php:330
+#: includes/classes/class.options.php:370
+msgid "License Key"
+msgstr ""
+
+#: includes/classes/class.options.php:335
+#: includes/classes/class.options.php:748
+msgid ""
+"Enter the License Key you got when bought this product. If you lost the "
+"key, you can always retrieve it from"
+msgstr ""
+
+#: includes/classes/class.options.php:335
+#: includes/classes/class.options.php:336
+#: includes/classes/class.options.php:749
+#: includes/classes/class.options.php:751
+msgid "My Account"
+msgstr ""
+
+#: includes/classes/class.options.php:336
+#: includes/classes/class.options.php:750
+msgid "More keys can be generate from"
+msgstr ""
+
+#: includes/classes/class.options.php:343
+msgid "Save"
+msgstr ""
+
+#: includes/classes/class.options.php:357
+#: includes/classes/class.options.php:740
+msgid "General Settings"
+msgstr ""
+
+#: includes/classes/class.options.php:385
+msgid "You can generate more keys from"
+msgstr ""
+
+#: includes/classes/class.options.php:536
+msgid "Divi Form Entries"
+msgstr ""
+
+#: includes/classes/class.options.php:551
+msgid "Title"
+msgstr ""
+
+#: includes/classes/class.options.php:552
+msgid "Location"
+msgstr ""
+
+#: includes/classes/class.options.php:553
+msgid "Entries"
+msgstr ""
+
+#: includes/classes/class.options.php:554
+msgid "Actions"
+msgstr ""
+
+#: includes/classes/class.options.php:566
+msgid "Download"
+msgstr ""
+
+#: includes/classes/class.options.php:566
+msgid "Delete Entries"
+msgstr ""
+
+#: includes/classes/class.options.php:624
+msgid "View Form Entries"
+msgstr ""
+
+#: includes/classes/class.options.php:650
+msgid "Back to Form List"
+msgstr ""
+
+#: includes/classes/class.options.php:662
+msgid "Submitted Date"
+msgstr ""
+
+#: includes/classes/class.options.php:745
+msgid "License Key Required"
+msgstr ""
+
+#: includes/classes/class.updater.php:74
+msgid "An error occour when try to identify the pluguin."
+msgstr ""
+
+#: includes/classes/class.updater.php:74 includes/classes/class.updater.php:80
+msgid "Try again"
+msgstr ""
+
+#: includes/classes/class.updater.php:80
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:21
+msgid "Edit/Delete Post - Divi Form Builder"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:36
+#: includes/modules/EditPostButton/EditPostButton.php:51
+#: includes/modules/FormField/FormField.php:2459
+msgid "Button"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:94
+msgid "Select Page"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:107
+msgid "Edit or Delete?"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:111
+msgid "Edit Post"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:112
+msgid "Delete Post"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:115
+msgid "Choose what you want the button to do - edit or delete the post."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:118
+msgid "Button Text"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:123
+msgid "Input your desired button text."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:127
+msgid "Full Width Button?"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:131
+#: includes/modules/EditPostButton/EditPostButton.php:143
+#: includes/modules/EditPostButton/EditPostButton.php:156
+#: includes/modules/EditPostButton/EditPostButton.php:192
+#: includes/modules/FormField/FormField.php:1143
+#: includes/modules/FormField/FormField.php:1156
+#: includes/modules/FormField/FormField.php:1169
+#: includes/modules/FormField/FormField.php:1182
+#: includes/modules/FormField/FormField.php:2354
+#: includes/modules/FormField/FormField.php:2482
+#: includes/modules/FormField/FormField.php:2496
+#: includes/modules/FormField/FormField.php:2510
+#: includes/modules/FormField/FormField.php:2582
+#: includes/modules/FormField/FormField.php:2605
+#: includes/modules/FormField/FormField.php:2642
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:132
+#: includes/modules/EditPostButton/EditPostButton.php:144
+#: includes/modules/EditPostButton/EditPostButton.php:157
+#: includes/modules/EditPostButton/EditPostButton.php:193
+#: includes/modules/FormField/FormField.php:1144
+#: includes/modules/FormField/FormField.php:1157
+#: includes/modules/FormField/FormField.php:1170
+#: includes/modules/FormField/FormField.php:1183
+#: includes/modules/FormField/FormField.php:2355
+#: includes/modules/FormField/FormField.php:2483
+#: includes/modules/FormField/FormField.php:2497
+#: includes/modules/FormField/FormField.php:2511
+#: includes/modules/FormField/FormField.php:2583
+#: includes/modules/FormField/FormField.php:2606
+#: includes/modules/FormField/FormField.php:2641
+msgid "No"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:135
+msgid ""
+"If you want to make your button fullwdith of the available space, enable "
+"this."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:139
+msgid "Show for Author Only?"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:148
+msgid "Enable this if you want to show button for posts current user posted."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:152
+msgid "Show Post in Modal?"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:172
+msgid "If you want to show post in modal instead to go post page, enable this."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:176
+msgid "Edit Page"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:183
+msgid "Select Page that contains form to edit."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:187
+msgid "Open in New Tab?"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:197
+msgid "Enable this if you want to open in a new tab."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:201
+msgid "Modal Form layout"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:208
+msgid ""
+"Select the Divi Library Layout that has the form to edit the post - this "
+"will be shown in the modal."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:212
+msgid "Modal Style"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:217
+msgid "Center"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:218
+msgid "Side"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:222
+msgid "Select the modal style."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:226
+msgid "Modal Overlay Background"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:232
+msgid "Select background color of modal overlay."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:236
+msgid "Modal Close Icon"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:244
+msgid "Choose an icon for modal close icon."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:248
+msgid "Modal Close Icon Color"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:251
+msgid "Here you can define a custom color for modal close icon."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:258
+msgid "Modal Close Icon Size"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:259
+msgid "Control the size of the icon by increasing or decreasing the font size."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:278
+msgid "Loading Post Animation Color"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:279
+msgid "Define the color of the animation."
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:288
+msgid "Button Alignment"
+msgstr ""
+
+#: includes/modules/EditPostButton/EditPostButton.php:289
+msgid "Align your button to the left, right or center of the module."
+msgstr ""
+
+#: includes/modules/Form/Form.php:31
+msgid "Form - Divi Form Builder"
+msgstr ""
+
+#: includes/modules/Form/Form.php:34
+msgid "Form Field"
+msgstr ""
+
+#: includes/modules/Form/Form.php:52
+#: includes/modules/FormField/FormField.php:35
+msgid "Main Options"
+msgstr ""
+
+#: includes/modules/Form/Form.php:53
+msgid "Multistep Options"
+msgstr ""
+
+#: includes/modules/Form/Form.php:54
+msgid "Email Notification"
+msgstr ""
+
+#: includes/modules/Form/Form.php:55
+msgid "Email Confirmation"
+msgstr ""
+
+#: includes/modules/Form/Form.php:56
+msgid "Notices"
+msgstr ""
+
+#: includes/modules/Form/Form.php:57 includes/modules/Form/Form.php:887
+msgid "Redirects"
+msgstr ""
+
+#: includes/modules/Form/Form.php:58
+msgid "Extra"
+msgstr ""
+
+#: includes/modules/Form/Form.php:59 includes/modules/Form/Form.php:883
+msgid "Spam Protection"
+msgstr ""
+
+#: includes/modules/Form/Form.php:65
+#: includes/modules/FormField/FormField.php:70
+msgid "Upload Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:69 includes/modules/Form/Form.php:299
+#: includes/modules/Form/Form.php:331
+#: includes/modules/FormField/FormField.php:74
+#: includes/modules/FormField/FormField.php:257
+#: includes/modules/FormField/FormField.php:289
+#: includes/modules/FormField/FormField.php:1917
+msgid "Upload Description"
+msgstr ""
+
+#: includes/modules/Form/Form.php:72 includes/modules/Form/Form.php:315
+#: includes/modules/FormField/FormField.php:77
+#: includes/modules/FormField/FormField.php:273
+msgid "Upload Preview Name"
+msgstr ""
+
+#: includes/modules/Form/Form.php:75
+#: includes/modules/FormField/FormField.php:80
+msgid "Upload Preview Size"
+msgstr ""
+
+#: includes/modules/Form/Form.php:80
+msgid "Notice Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:84 includes/modules/Form/Form.php:347
+msgid "Success Notification"
+msgstr ""
+
+#: includes/modules/Form/Form.php:87 includes/modules/Form/Form.php:363
+msgid "Failed Notification"
+msgstr ""
+
+#: includes/modules/Form/Form.php:92
+msgid "Progress Bar Colors"
+msgstr ""
+
+#: includes/modules/Form/Form.php:96
+msgid "Active color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:99
+msgid "Inactive color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:104
+msgid "Date/Time Picker"
+msgstr ""
+
+#: includes/modules/Form/Form.php:107
+#: includes/modules/FormField/FormField.php:85
+#: includes/modules/FormField/FormField.php:1073
+msgid "Content Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:159
+msgid "Captcha"
+msgstr ""
+
+#: includes/modules/Form/Form.php:163
+msgid "Basic Captcha Question"
+msgstr ""
+
+#: includes/modules/Form/Form.php:166
+msgid "Basic Captcha Answer"
+msgstr ""
+
+#: includes/modules/Form/Form.php:186
+#: includes/modules/FormField/FormField.php:152
+msgid "Inputs"
+msgstr ""
+
+#: includes/modules/Form/Form.php:196 includes/modules/Form/Form.php:785
+msgid "Whole Form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:206
+msgid "Form Field Wrapper"
+msgstr ""
+
+#: includes/modules/Form/Form.php:216
+msgid "Basic Captcha Input"
+msgstr ""
+
+#: includes/modules/Form/Form.php:221 includes/modules/Form/Form.php:1058
+msgid "Form Title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:234
+#: includes/modules/FormField/FormField.php:205
+msgid "Label"
+msgstr ""
+
+#: includes/modules/Form/Form.php:247
+#: includes/modules/FormField/FormField.php:218
+msgid "Placeholder"
+msgstr ""
+
+#: includes/modules/Form/Form.php:260
+#: includes/modules/FormField/FormField.php:231
+msgid "Field Description"
+msgstr ""
+
+#: includes/modules/Form/Form.php:273
+msgid "Success Notice Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:286
+msgid "Failed Notice Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:379
+msgid "Bloom Sign Up Description"
+msgstr ""
+
+#: includes/modules/Form/Form.php:392
+msgid "Progress bar Step title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:406
+msgid "Progress bar Step Number/Icon"
+msgstr ""
+
+#: includes/modules/Form/Form.php:419
+msgid "Progress bar Percentage "
+msgstr ""
+
+#: includes/modules/Form/Form.php:432
+#: includes/modules/FormField/FormField.php:318
+msgid "Required Error Notice"
+msgstr ""
+
+#: includes/modules/Form/Form.php:439
+#: includes/modules/FormField/FormField.php:305
+msgid "Required Mark"
+msgstr ""
+
+#: includes/modules/Form/Form.php:452
+msgid "Date Picker"
+msgstr ""
+
+#: includes/modules/Form/Form.php:465 includes/modules/Form/Form.php:1419
+#: includes/modules/Form/Form.php:1482
+#: includes/modules/FormField/FormField.php:325
+#: includes/modules/FormField/FormField.php:1047
+msgid "Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:480
+#: includes/modules/FormField/FormField.php:340
+msgid "Link"
+msgstr ""
+
+#: includes/modules/Form/Form.php:495
+#: includes/modules/FormField/FormField.php:355
+msgid "Unordered List"
+msgstr ""
+
+#: includes/modules/Form/Form.php:511
+#: includes/modules/FormField/FormField.php:371
+msgid "Ordered List"
+msgstr ""
+
+#: includes/modules/Form/Form.php:527
+#: includes/modules/FormField/FormField.php:387
+msgid "Blockquote"
+msgstr ""
+
+#: includes/modules/Form/Form.php:542
+#: includes/modules/FormField/FormField.php:402
+msgid "Heading"
+msgstr ""
+
+#: includes/modules/Form/Form.php:556
+#: includes/modules/FormField/FormField.php:416
+msgid "Heading 2"
+msgstr ""
+
+#: includes/modules/Form/Form.php:570
+#: includes/modules/FormField/FormField.php:430
+msgid "Heading 3"
+msgstr ""
+
+#: includes/modules/Form/Form.php:584
+#: includes/modules/FormField/FormField.php:444
+msgid "Heading 4"
+msgstr ""
+
+#: includes/modules/Form/Form.php:598
+#: includes/modules/FormField/FormField.php:458
+msgid "Heading 5"
+msgstr ""
+
+#: includes/modules/Form/Form.php:612
+#: includes/modules/FormField/FormField.php:472
+msgid "Heading 6"
+msgstr ""
+
+#: includes/modules/Form/Form.php:626
+msgid "Captcha Math"
+msgstr ""
+
+#: includes/modules/Form/Form.php:641
+msgid "Captcha Answer"
+msgstr ""
+
+#: includes/modules/Form/Form.php:681 includes/modules/Form/Form.php:1167
+msgid "Submit Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:701
+#: includes/modules/FormField/FormField.php:525
+msgid "Radio/Checkbox Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:721
+#: includes/modules/FormField/FormField.php:545
+msgid "Active Radio/Checkbox Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:741
+msgid "Previous Step Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:761
+msgid "Next Step Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:800
+#: includes/modules/FormField/FormField.php:607
+msgid "Fields"
+msgstr ""
+
+#: includes/modules/Form/Form.php:855
+msgid "Feature Update: Multistep Forms in Divi"
+msgstr ""
+
+#: includes/modules/Form/Form.php:859
+msgid "Building a Custom Post Creation Form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:863 includes/modules/Form/Form.php:919
+msgid "User Field Mapping"
+msgstr ""
+
+#: includes/modules/Form/Form.php:867
+msgid "Building a Post Creation Form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:871
+msgid "How to Add a Filter Field"
+msgstr ""
+
+#: includes/modules/Form/Form.php:875
+msgid "Cómo añadir iconos a los campos de un formulario en Divi"
+msgstr ""
+
+#: includes/modules/Form/Form.php:879
+msgid "Build a Contact Form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:891
+msgid "Form Notices"
+msgstr ""
+
+#: includes/modules/Form/Form.php:895
+msgid "Ajax Form Submission"
+msgstr ""
+
+#: includes/modules/Form/Form.php:899 includes/modules/Form/Form.php:911
+msgid "Email Options"
+msgstr ""
+
+#: includes/modules/Form/Form.php:903
+msgid "Form Module Overview"
+msgstr ""
+
+#: includes/modules/Form/Form.php:907
+msgid "Form Fields Overview"
+msgstr ""
+
+#: includes/modules/Form/Form.php:915
+msgid "Building a Basic Contact Form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:923
+msgid "Build a User Registration Form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:927
+msgid " Post Field Mapping"
+msgstr ""
+
+#: includes/modules/Form/Form.php:931
+msgid "Using the Edit/Delete Post Module"
+msgstr ""
+
+#: includes/modules/Form/Form.php:935
+msgid "Introducing Divi Form Builder"
+msgstr ""
+
+#: includes/modules/Form/Form.php:943
+msgid "Select"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1060
+msgid "Define your Form Title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1066
+msgid "Form ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1068
+msgid "Define Unique Form ID."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1074
+msgid "Form Type"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1078 includes/modules/Form/Form.php:1932
+msgid "Choose the type of form"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1093
+msgid "Already logged in text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1096
+msgid "Add text/html for when the user is already logged in."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1104
+msgid "Confirm password error message"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1107
+msgid "Add the error text when the passwords do not match."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1114
+msgid "Is User Edit Form?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1122
+msgid ""
+"If it is user edit form, please enable this option. Otherwise it will be "
+"register user form."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1131
+msgid "Default User Role"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1135
+msgid "Choose the default role for new user."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1141
+msgid "Auto Login after register?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1149
+msgid "Enable this option to login automatically after user registered."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1154
+msgid "Ignore Form Field Prefix"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1161
+msgid ""
+"We are adding our own prefix to form field to avoid wordpress reserved "
+"keywords. If you want to use original field name that you defined, please "
+"enable this option, but make sure you don't use reserved keywords."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1170
+msgid "Define the text of the form submit button."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1175
+msgid "Action URL"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1178
+msgid "Define the action url for custom form submit."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1184
+msgid "Disable Submit Button until required field is filled"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1192
+msgid ""
+"If you want disable submit button until all required fields are filled or "
+"selected, please enable this option."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1197
+msgid "Ajax Submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1205
+msgid "If you submit the form via ajax, please enable this."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1210
+msgid "Ajax Processing Submit Button Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1213
+msgid ""
+"When you click \"submit\" we will change the button text to inform the "
+"person that the ajax form is processing - change the text here."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1219
+msgid "Clear the form after a failed ajax submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1228
+msgid "If you want to clear the form after a failed ajax submission, enable this"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1233
+msgid "Hide Form Until Loaded?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1241
+msgid "If you want hide the form until it is fully loaded - enable this"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1246
+msgid "Use Preloading Animation?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1254
+msgid "If you want show preloading animation until form is loaded - enable this"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1259
+msgid "Preloading Animation Style"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1264
+msgid "Divi VB Style"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1265
+msgid "Three Lines Vertical"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1266
+msgid "Three Lines Horizontal"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1267
+msgid "Three Dots Bouncing"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1268
+msgid "Donut"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1269
+msgid "Donut Multiple"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1270
+msgid "Ripple"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1272
+msgid "Select the preloading animation to show."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1278
+msgid "Scroll to Form after Submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1286
+msgid ""
+"Please enable this option when you want to scroll down to form after "
+"submission."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1291
+msgid "Top Offset when scrolled"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1302
+msgid "Choose the offset with px for scrolling after submission"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1308
+msgid "Hide Form After Successful Submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1316
+msgid ""
+"If you want the form fields to be hidden and only show the success message "
+"- enable this"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1320
+msgid "Default Post Status"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1324
+msgid "Choose the default status when post is created."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1331
+msgid "Edit Permission"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1335
+msgid "Logged in Author or Administrator"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1336
+msgid "All users"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1337
+msgid "Users with specific role"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1339
+msgid "Choose the permission of the user who can edit the post."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1346
+msgid "User role"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1350
+msgid "Choose the role of the user who can edit the post."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1360
+msgid "No Permission Notice"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1363
+msgid ""
+"Enter the notice that appears if the user does not have the ability to edit "
+"the post."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1370
+msgid "Enable assign taxonomy terms for Non Logged In Users"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1378
+msgid "If you want non logged in users can assign taxonomy terms, enable this."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1383
+msgid "Notice Message Display Position"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1388
+msgid "Before Form Title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1389
+msgid "After Form Title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1390
+msgid "Before Submit Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1391
+msgid "After Submit Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1393
+msgid ""
+"Select Position to display success or failed message/layout. It will not "
+"effect when redirect url is set."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1397
+msgid "Redirect to another url after successful submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1405
+msgid ""
+"Set the full url of the page to go after login. Leave blank to go to "
+"homepage for default"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1414
+msgid "Success Message Type"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1420 includes/modules/Form/Form.php:1483
+msgid "Divi Layout"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1422 includes/modules/Form/Form.php:1485
+msgid "Select Message Type to simple text or custom divi layout."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1431
+msgid "Success Message Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1435
+msgid ""
+"Type the message you want to display after successful form submission. "
+"Leave blank for default"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1441
+msgid "Success Message Layout"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1445
+msgid ""
+"Select Divi Layout what you want to display after successful form "
+"submission."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1451
+msgid "Redirect Url After Submission"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1454
+msgid "Set the full url of the page to go after success submission."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1460
+msgid "Redirect to another url after failed submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1468
+msgid ""
+"If you want to redirect to another page or url after form submission is "
+"failed, please enable this option."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1477
+msgid "Failed Message Type"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1494
+msgid "Failed Message Text"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1498
+msgid ""
+"Type the message you want to display after failed form submission. Leave "
+"blank for default"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1504
+msgid "Failed Message Layout"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1508
+msgid "Select Divi Layout what you want to display after failed form submission."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1514
+msgid "Redirect Url After Submission Failed"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1517
+msgid "Set the full url of the page to go after form submission is failed."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1523
+msgid "Send email notification after submission?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1531
+msgid ""
+"If you want to send email notification to Admin(or Custom Contact Email "
+"address) after submission, enable this option."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1536
+msgid "Send to Email Address"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1541
+msgid "Admin Email"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1542
+msgid "Author of current post"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1543
+#: includes/modules/FormField/FormField.php:839
+#: includes/modules/FormField/FormField.php:987
+msgid "ACF Field"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1544
+msgid "Custom (define below)"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1546
+msgid "If you want to send email to Admin, enable this option."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1550
+msgid "ACF Field Type"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1554
+msgid "Current CPT"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1555
+msgid "Linked CPT"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1558
+msgid ""
+"Choose where the ACF comes from - is it the currnet post or a linked on "
+"(post object)."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1563
+msgid "Linked ACF Field"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1567
+msgid "Choose the ACF field that is the post object that is linked on this CPT."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1572
+msgid "Send to ACF Field"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1576
+msgid ""
+"Choose the ACF Field that you want to send this email to - used when you "
+"are using custom posts."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1581
+msgid "Define a custom email address to send to"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1584
+msgid "Set the email address to send email via contact form."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1589 includes/modules/Form/Form.php:1750
+msgid "From Name"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1594 includes/modules/Form/Form.php:1755
+msgid "Site Title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1595 includes/modules/Form/Form.php:1626
+#: includes/modules/Form/Form.php:1730 includes/modules/Form/Form.php:1756
+msgid "Sender - From form field"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1596 includes/modules/Form/Form.php:1757
+msgid "Custom Name"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1598
+msgid ""
+"Specify the from name for the email, this appears on the email as who sent "
+"the email.."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1602 includes/modules/Form/Form.php:1764
+msgid "Sender Name - Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1606
+msgid "Please input the id of the Name Field that you have added to the form."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1611
+msgid "From Name - Custom "
+msgstr ""
+
+#: includes/modules/Form/Form.php:1615
+msgid "Please input the name to be shown as \"from\" when sending the email."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1620 includes/modules/Form/Form.php:1793
+msgid "From Email"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1625 includes/modules/Form/Form.php:1798
+msgid "Default - Admin"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1627 includes/modules/Form/Form.php:1799
+msgid "Custom"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1629 includes/modules/Form/Form.php:1801
+msgid "Select which email address that you want to appear as \"from\"."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1633 includes/modules/Form/Form.php:1741
+msgid "Sender Email - Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1637 includes/modules/Form/Form.php:1745
+#: includes/modules/Form/Form.php:1768
+msgid "Please input the id of the email Field that you have added to the form."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1642 includes/modules/Form/Form.php:1806
+msgid "Custom From Email"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1646 includes/modules/Form/Form.php:1810
+msgid "Please input the email address to show in Email Header."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1651
+msgid "Reply-to Email Name Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1655
+msgid "Please input the field id for name to reply to."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1659
+msgid "Reply-to Email Address Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1663
+msgid "Please input the field id for email address to reply to."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1667
+msgid "CC Email List"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1670
+msgid "Set the email address to send email for CC."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1674
+msgid "BCC Email List"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1677
+msgid "Set the email address to send email for BCC."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1681 includes/modules/Form/Form.php:1833
+msgid "Email Subject"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1684
+msgid "Define Email subject to send."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1689 includes/modules/Form/Form.php:1842
+msgid "Is Full HTML?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1697 includes/modules/Form/Form.php:1850
+msgid "If your email template is full html code - enable this."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1701 includes/modules/Form/Form.php:1854
+msgid "Email Template"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1704
+msgid "Define Email template how it will show on email."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1713
+msgid "Enable Confirmation Email?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1721
+msgid ""
+"If you want to send email an email to the sender/submitter or someone else "
+"- enable this."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1725
+msgid "Send to email"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1731
+msgid "Logged In user"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1733
+msgid ""
+"Select who you want to send the email confirmation to. If you have this set "
+"as \"sender\" - make sure you have an email field and have the optoin \"Is "
+"sender email address?\" set to \"yes\"."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1759
+msgid ""
+"Specify the from name for the email, this appears on the email as who sent "
+"the email."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1782
+msgid "Custom From Name"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1786
+msgid "Please specify the name to show in the email."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1815
+msgid "Reply-to Email Name"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1819
+msgid "Please input the name to reply to."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1824
+msgid "Reply-to Email Address"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1828
+msgid "Please input the email address to reply to."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1836
+msgid "Define Email subject that will appear in the confirmation email."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1857
+msgid "Define Email template that will appear in the confirmation email."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1863
+msgid "Save Entries to Database?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1871
+msgid ""
+"If you want to save contact form submissions to database, please enable "
+"this option."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1876
+msgid "Enable Bloom Subscription?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1884
+msgid "Enable this option to add registered user to subscription list."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1897
+msgid "Subscriber Name Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1900
+msgid "Input the field id of the Name Field from form for Subscriber."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1907
+msgid "Subscriber Last Name Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1910
+msgid "Input the field id of the Last Name Field from form for Subscriber."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1917
+msgid "Subscribe Email Field ID"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1920
+msgid "Input the field id of the Email Field from form for Subscriber."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1927
+msgid "Subscription Email List"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1937
+msgid "Subscribe Checkbox Label"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1940
+msgid "Define the label of subscription checkbox."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1947
+msgid "Check Subscribe Checkbox As Default?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1950
+msgid "If you enable this option, subscribe checkbox will be checked as default."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1960
+msgid "Make Subscribe Checkbox As Required?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1963
+msgid "If you enable this option, subscribe checkbox will be required to submit."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1978
+msgid "Subscribe Chckbox Required Message"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1982
+msgid "Define the error message that will show when subscribe checkbox is required."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1987
+msgid "Subscribe Chckbox Required Message Position"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1991
+#: includes/modules/FormField/FormField.php:1766
+msgid "Define the position of error message."
+msgstr ""
+
+#: includes/modules/Form/Form.php:1993
+#: includes/modules/FormField/FormField.php:1768
+#: includes/modules/FormField/FormField.php:2442
+msgid "Top"
+msgstr ""
+
+#: includes/modules/Form/Form.php:1994
+#: includes/modules/FormField/FormField.php:1769
+msgid "Bottom"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2001
+msgid "Enable Select2 for your Select Options?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2009
+msgid ""
+"If you want to use Select2 on one or more of your select options in the "
+"filter, enable this. This will enqueue the Select2 JS and CSS to make this "
+"work."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2013
+#: includes/modules/FormField/FormField.php:1645
+msgid "Select Arrow Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2016
+#: includes/modules/FormField/FormField.php:1648
+#: includes/modules/FormField/FormField.php:1656
+msgid "Set the color of the arrow for the select dropdown."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2022
+msgid "Submit Button Alignment"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2029
+msgid "Here you can define the alignment of Button"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2032
+msgid "Multistep Buttons Alignment"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2039 includes/modules/Form/Form.php:2322
+msgid "Here you can define the alignment of Multistep form Buttons"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2043
+#: includes/modules/FormField/FormField.php:2790
+msgid "Label Padding"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2051
+#: includes/modules/FormField/FormField.php:2798
+msgid "Description Padding"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2060
+msgid "Form Field Wrapper Padding"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2062
+msgid "Set padding for the wrapper around the form fields"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2070
+msgid "Form Field Wrapper Margin"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2072
+msgid "Set margin for the wrapper around the form fields"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2082
+#: includes/modules/FormField/FormField.php:2468
+msgid "Checkbox Checked Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2084
+#: includes/modules/FormField/FormField.php:2470
+msgid "Change the color of the dot when a radio or checkbox is checked."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2091
+msgid "Bloom Checkbox Background Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2093
+msgid "Change the background color of the bloom checkbox (sign up)."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2100
+msgid "Enable Multistep?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2108
+msgid "Define whether this a multistep or a regular form."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2115
+msgid "Form Transition Effect"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2120 includes/modules/Form/Form.php:2147
+#: includes/modules/FormField/FormField.php:2441
+msgid "None"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2121
+msgid "FadeIn"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2122
+msgid "ScaleIn"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2123
+msgid "ScaleOut"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2124
+msgid "SlideHorz"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2125
+msgid "SlideVert"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2127
+msgid "Define whether show of hide the progress bar"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2132
+msgid "Form Transition Effect Speed"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2136
+msgid "Define speed for transition effect"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2142
+msgid "Progress bar style"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2148
+msgid "Basic"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2149
+msgid "Lollipop"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2150
+msgid "Step"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2152
+msgid "Select the progress bar style of your choice"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2157
+msgid "Basic progress bar height"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2168
+msgid "Choose your basic progress bar height"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2173
+msgid "Lollipop progress bar border radius"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2184
+msgid "Choose your basic progress bar border radius"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2189
+msgid "Progress bar active color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2200
+msgid "Progress bar inactive color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2211
+msgid "Progress bar show percentage"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2219
+msgid "Define whether show or hide the percentage numbers at the progress bar"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2224
+msgid "Progress bar show step number in circle?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2232
+msgid "Define whether show or hide the step number in circle at the progress bar."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2237
+msgid "Progress bar show step icon in circle?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2245
+msgid "Define whether show or hide the step icon in circle at the progress bar."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2250
+msgid "Progress bar Step border radius"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2261
+msgid "Choose your basic progress bar step border radius"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2266
+msgid "Progress bar show step title"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2274
+msgid "Define whether show or hide the step titles at the progress bar"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2279
+msgid "Go to next step on press Enter?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2287
+msgid "Set this ON if you want to press Enter key and go to the next step"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2292
+msgid "Progress bar Margin"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2294
+msgid "Set margin for your progress bar"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2303
+msgid "Multistep Progress Bar Width"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2311
+msgid "Here you can define your progress bar width"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2315
+msgid "Multistep Progress Bar Alignment"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2327
+msgid "Font Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2329
+msgid "Change the font color on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2335
+msgid "Active Number Font Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2337
+msgid "Change the font color of the active date on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2343
+msgid "Highlighted Date Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2345
+msgid "Change the font color of the highlighted date on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2351
+msgid "Number Background Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2353
+msgid "Change the background color of the number on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2359
+msgid "Active Number Background Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2361
+msgid "Change the active background color of the number on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2367
+msgid "Highlighted Date Background Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2369
+msgid "Change the background color of the highlighted date on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2374
+msgid "Number Border Radius"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2375
+msgid "Set the border radius for the number on the calender"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2392
+msgid "Captcha Answer Background Color"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2394
+msgid "Change the background color of the answer input field."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2404
+msgid "Add Google reCAPTCHA?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2412
+msgid "Enable this option to add google reCAPTCHA field."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2417
+msgid "reCaptcha Type?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2422
+msgid "reCaptcha v2"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2423
+msgid "reCaptcha v3"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2425
+msgid "Choose the type of Google recaptcha you want to use."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2431
+msgid "Google reCAPTCHA Site Key"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2435
+msgid "Add Google reCAPTCHA v2 Site Key."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2442
+msgid "Google reCAPTCHA v3 Site Key"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2446
+msgid "Add Google reCAPTCHA v3 Site Key."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2453
+msgid "Google reCAPTCHA v3 Secret Key"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2457
+msgid "Add Google reCAPTCHA v3 Secret Key."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2464
+msgid "Google reCAPTCHA v3 Score"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2473
+msgid "Add Google Invisible reCAPTCHA v2 Secret Key."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2480
+msgid "Add Basic CAPTCHA field?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2488
+msgid "Enable this option to add simple CAPTCHA field."
+msgstr ""
+
+#: includes/modules/Form/Form.php:2493
+msgid "Add Honeypot CAPTCHA field?"
+msgstr ""
+
+#: includes/modules/Form/Form.php:2501
+msgid "Enable this option to add Honeypot CAPTCHA field."
+msgstr ""
+
+#: includes/modules/Form/Form.php:3801
+msgid ""
+"Form was submitted successfully. There was a problem with the email "
+"confirmation, no sender email ID specified."
+msgstr ""
+
+#: includes/modules/Form/Form.php:3812
+msgid "There is an issue with Captcha."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:23
+msgid "Form Field - Divi Form Builder"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:28
+msgid "New Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:29
+msgid "Field Settings"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:36
+msgid "Field Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:37
+msgid "Layout Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:38
+msgid "Mapping Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:39
+msgid "Conditional Logic"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:40
+msgid "Date/Time Appearance"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:41
+msgid "Signature Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:42
+msgid "Radio/Checkbox Image Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:49
+msgid "Upload Elements"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:53
+#: includes/modules/FormField/FormField.php:2649
+msgid "Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:56
+msgid "Description"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:59
+msgid "Preview"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:62
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:65
+msgid "Edit"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:162
+msgid "Upload Preview Container"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:172
+msgid "Upload Preview Image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:182
+msgid "Upload Progress Bar"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:244
+msgid "Radio/Checkbox Active"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:520
+msgid "Radio/Checkbox Active Image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:565
+msgid "Image Preview Edit Button"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:661
+msgid "Please select an ACF field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:814
+msgid "Link URL"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:815
+msgid "Link Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:816
+msgid "Discard Changes"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:817
+msgid "Save Changes"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:818
+msgid "Option Link"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:830
+msgid "Post Default Field (Post/Page/Products/CPT only)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:840
+msgid "Custom Meta Field (Post/Page/Products/CPT only)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:841
+msgid "User Field (Register/Login form only)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:842
+msgid "User Meta Field (Register/Login Form only)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:843
+msgid "Custom (Advanced Users or Developers)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:852
+msgid "Field Title"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:854
+msgid "Change the name of the field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:860
+msgid "Admin Title"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:862
+msgid "The name will be shown in visual builder settings modal."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:868
+msgid "Field ID"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:870
+msgid ""
+"Define the unique ID of this field. You should use only English characters "
+"without special characters and spaces."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:876
+msgid "Type"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:881
+msgid "Input Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:882
+msgid "Number Input Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:883
+msgid "Email Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:884
+msgid "Password Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:885
+msgid "Hidden Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:886
+msgid "Textarea"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:887
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:888
+msgid "Radio Buttons"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:889
+msgid "Select Dropdown"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:890
+msgid "Image Upload"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:891
+msgid "File Upload Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:892
+msgid "Date Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:893
+msgid "Date/Time Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:894
+msgid "Content(Text, Code or Divi Library)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:895
+msgid "Digital Signature Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:896
+msgid "Form Step"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:898
+msgid "Choose the type of field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:929
+msgid "Add Form Builder Prefix to field?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:937
+msgid ""
+"Disable this option to use your input directly for Field ID and Name, "
+"please disable this option for only specific case like google tag manager "
+"field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:941
+msgid "Is Google Address Field?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:950
+msgid ""
+"Enable this option if you want to use google map address autocomplete api "
+"for this field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:954
+msgid "Minimum Number Value"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:958
+msgid "Define the minimum number value for the number field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:963
+msgid "Maximum Number Value"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:967
+msgid "Define the maximum number value for the number field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:972
+msgid "Number Increase Step Value"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:976
+msgid "Define the increase step value for the number field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:981
+msgid "Hidden Field Value"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:985
+msgid "Page Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:986
+msgid "Page URL"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:988
+msgid "Custom Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:991
+msgid "Define the hidden value for the field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:996
+msgid "Hidden Value ACF Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1001
+msgid "Choose the ACF Field that you want to have the value for the hidden field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1006
+msgid "Hidden Value Custom Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1010
+msgid "Add the custom text that you want to appear on the hidden field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1015
+msgid "Previous Button Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1019
+msgid "Text for previous step button"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1024
+msgid "Next Button Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1028
+msgid "Text for next step button"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1033
+msgid "Progress Bar Step Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1037
+msgid "Choose the step icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1043
+msgid "Content Type"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1048
+#: includes/modules/FormField/FormField.php:1081
+msgid "Code"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1049
+msgid "Divi Library Layout"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1051
+msgid ""
+"Choose the type of content field you want to use. You can text editor, html "
+"or even select a layout you made in the Divi Library."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1060
+msgid "Content Library Layout"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1065
+msgid "Choose the Divi Library layout you want to show as this field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1076
+msgid "Add the text or content that you want to appear."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1085
+msgid "Add custom code that you might want to appear."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1090
+msgid "Use Wysiwyg Editor?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1099
+msgid "Define to use Wysiwyg Editor or normal textarea."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1106
+msgid "Show Add Media Button?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1115
+msgid "If you want to disable Add Media Button, disable this option."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1119
+msgid "Textarea Rows"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1124
+msgid "Define rows of the textarea field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1128
+msgid "Textarea Character Limit"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1132
+msgid "Define limit of the characters for textarea field. Empty for no limit."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1138
+msgid "Hide Upload Image Preview"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1146
+msgid ""
+"Enable this if you want to hide the image preview that appears when you "
+"upload a file or image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1151
+msgid "Hide Upload Preview Title"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1159
+msgid ""
+"Enable this if you want to hide the preview title that appears when you "
+"upload a file or image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1164
+msgid "Hide Upload Preview File Size"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1172
+msgid ""
+"Enable this if you want to hide the preview file size that appears when you "
+"upload a file or image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1177
+msgid "Hide Upload Preview Progress Bar"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1185
+msgid ""
+"Enable this if you want to hide the preview progress bar that appears when "
+"you upload a file or image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1190
+msgid "Upload alt Title"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1194
+msgid "No file chosen"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1198
+msgid "Max Upload File Counts"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1202
+msgid "Define the max number of files to be uploaded - has to be an integer e.g. 5"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1207
+msgid "Max Number of Files Exceed Error"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1211
+msgid ""
+"When the user tries to upload number of files larger than the max file "
+"counts, specify the error message that appears."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1216
+msgid "Max Upload File Size"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1220
+msgid "Define the max file size in number - has to be an integer. 10000000 = 10MB"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1225
+msgid "Max Upload File Size Error"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1229
+msgid ""
+"When the user tries to upload a file larger than the max file size, specify "
+"the error message that appears."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1234
+#: includes/modules/FormField/FormField.php:1243
+msgid "Accepted File Types"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1238
+#: includes/modules/FormField/FormField.php:1247
+msgid "Specify the accepted file types, comma seperated."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1252
+msgid "Accepted File Types Error"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1256
+msgid ""
+"When the user tries to upload a file that is not accepted, specify the "
+"error message that appears."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1261
+msgid "Upload Error Hide Delay(milliseconds)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1271
+msgid "Set the time it takes for the error message to go away for the upload field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1276
+msgid "If on edit form - button text to show upload box"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1280
+msgid ""
+"When you have this field on the edit form and this is an image, we will "
+"hide the upload section hidden and have a button to click to reveal. "
+"Specify the text here."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1285
+msgid "If on edit form - button text to close the upload box"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1289
+msgid ""
+"When you click the buttom to edit the image, the upload box will appear. "
+"Change the text of the button to hide this upload box again."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1294
+msgid "Edit image instructions text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1298
+msgid ""
+"When you edit the image it will show a preview. Add instructions on how to "
+"edit the image. They need to upload the image into the drop box in the "
+"order the images are loaded"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1303
+msgid "If on edit form - Remove File From Media library?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1311
+msgid ""
+"If you want remove file from media library when you remove file on edit "
+"form, enable this."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1316
+msgid "If on edit form - Remove File Confirm Message "
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1320
+msgid "When you remove file on edit form, this confirm message will appear."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1326
+msgid "Signature Pen Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1330
+msgid "Color of the Pen."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1335
+msgid "Signature Background"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1339
+msgid "Background color of Signature Field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1344
+msgid "Add Clear \"x\" icon\"?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1351
+msgid "Enable this option to add clear button."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1364
+msgid "Clear Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1367
+#: includes/modules/FormField/FormField.php:2652
+#: includes/modules/FormField/FormField.php:2686
+msgid "Choose the input icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1374
+#: includes/modules/FormField/FormField.php:2658
+msgid "Icon Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1376
+#: includes/modules/FormField/FormField.php:2660
+#: includes/modules/FormField/FormField.php:2694
+msgid "Here you can define a custom color for your icon."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1383
+#: includes/modules/FormField/FormField.php:2666
+msgid "Icon Font Size"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1398
+msgid "Icon From Top"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1399
+msgid "Choose how far from the top you want the icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1414
+msgid "Checked By Default"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1415
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. "
+"They can still deselected it."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1423
+#: includes/modules/FormField/FormField.php:1469
+#: includes/modules/FormField/FormField.php:1590
+msgid "Auto Detect from mapped field?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1436
+#: includes/modules/FormField/FormField.php:1482
+#: includes/modules/FormField/FormField.php:1603
+msgid "Choose if you want the field to be auto populated by the mapped field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1440
+#: includes/modules/FormField/FormField.php:1486
+#: includes/modules/FormField/FormField.php:1607
+msgid "Exclude auto-detected options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1444
+#: includes/modules/FormField/FormField.php:1490
+#: includes/modules/FormField/FormField.php:1611
+msgid ""
+"If you want exclude some options from auto detected options, please set "
+"here separated by comma."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1449
+#: includes/modules/FormField/FormField.php:1459
+#: includes/modules/FormField/FormField.php:1495
+#: includes/modules/FormField/FormField.php:1638
+msgid "Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1506
+msgid "Add Images to the Options?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1515
+msgid "Enable this if you want to have images as checkbox/radio options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1519
+msgid "Image Options"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1520
+msgid ""
+"Choose the images that you would like to appear as part of the options. "
+"Make sure that the options order is the same as the gallery."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1530
+msgid "Show Radiobox for Image options?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1539
+msgid "Show or Hide radio/checkbox selection for Image Options?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1543
+msgid "Image options label position"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1555
+msgid "Select the position where you want to show the label."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1559
+msgid "Radio / Checkbox Image Max Width"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1564
+msgid "Adjust the max width of the image for the radio image."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1575
+msgid "Make Radio / Checkbox Image as same height"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1580
+msgid "Make height of all image for the checkbox/radio image."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1616
+msgid "Enable Select Placeholder?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1625
+msgid "Choose if you want a placeholder to be shown first"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1629
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1634
+msgid "Define the text to be shown as the placeholder for the select option"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1653
+msgid "Field Icon Top Position"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1668
+msgid "Email Input Error Message"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1672
+msgid "Define the error message that will show when email address format is wrong."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1677
+msgid "Minimum Length"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1678
+#: includes/modules/FormField/FormField.php:1693
+msgid "Leave at 0 to remove restriction"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1692
+msgid "Maximum Length"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1707
+msgid "Minimum Length Error Message"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1711
+msgid "Define the error message that will show when input length is less."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1717
+msgid "Allowed Symbols"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1721
+#: includes/modules/FormField/FormField.php:2737
+msgid "All"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1722
+msgid "Letters Only (A-Z)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1723
+msgid "Numbers Only (0-9)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1724
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1731
+msgid "Pattern Failed Message"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1735
+msgid "Define the error message that will show when unallowed character has input."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1741
+msgid "Required Field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1749
+msgid "Define whether the field should be required or optional."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1753
+msgid "Required Field Message"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1757
+msgid "Define the error message that will show when it is required field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1762
+msgid "Required Message Position"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1775
+msgid "Go to Next Step when change option on multistep form?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1785
+msgid "If you go to the next step when change radio or select options, enable this."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1788
+msgid "Date & Time picker Language"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1794
+msgid "Please select the language for date & time picker."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1798
+msgid "Calender Date Format"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1803
+msgid "Please specify the date format that you want to show."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1807
+msgid "Calender Time Format"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1812
+msgid "Please specify the time format that you want to show."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1816
+msgid "Field Mapping Type"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1821
+msgid ""
+"Choose the mapping type - for example if you want to map to the post title, "
+"choose \"post default fields\""
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1826
+msgid "ACF Field Mapping"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1831
+msgid "Choose ACF field to map with this field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1836
+msgid "Custom Meta Field Mapping"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1839
+msgid "Input field name to map with this field for example custom meta value."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1844
+msgid "Default User Field Mapping"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1848
+#: includes/modules/FormField/FormField.php:1886
+#: includes/modules/FormField/FormField.php:2852
+msgid "No Select"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1849
+msgid "User Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1850
+msgid "First Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1851
+msgid "Last Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1852
+msgid "Nick Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1853
+msgid "Login Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1854
+msgid "Email Address"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1855
+msgid "User Url"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1856
+msgid "Display Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1857
+msgid "Password"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1858
+msgid "Password Confirm"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1859
+msgid "User Role"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1861
+msgid "Select the user field type for this field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1866
+msgid "User Meta Field Name"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1869
+msgid "Input field name to map this field with user meta."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1874
+msgid "Custom Field Mapping"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1877
+msgid "Input field name to use in form."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1882
+msgid "Default Field Mapping"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1887
+msgid "Post Title"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1888
+msgid "Post Content"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1889
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1890
+msgid "Post Status"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1891
+msgid "Post Slug"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1892
+msgid "Featured Image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1893
+msgid "Parent Post"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1894
+msgid "Post Type"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1896
+msgid "Select the columns count of the field label for 12 columns."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1901
+msgid "Columns for Grid"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1906
+msgid "Full (4/4)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1907
+#: includes/modules/FormField/FormField.php:2706
+msgid "Three Quarter (3/4)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1908
+#: includes/modules/FormField/FormField.php:2707
+msgid "Two Thirds (2/3)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1909
+#: includes/modules/FormField/FormField.php:2708
+msgid "Half (1/2)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1910
+#: includes/modules/FormField/FormField.php:2709
+msgid "Third (1/3)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1911
+#: includes/modules/FormField/FormField.php:2710
+msgid "Quarter (1/4)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1913
+msgid "Select Columns count of the field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1920
+msgid "Drop files here or Click to select file."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1921
+msgid ""
+"Set the text that appears to notify the visitor to click or drag "
+"images/files to upload"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1927
+msgid "Upload Icon / Image Width"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1928
+msgid "Set the width of the icon or image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1946
+msgid "Upload Icon / Image Height"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1947
+msgid "Set the height of the icon or image"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1966
+msgid "Upload Icon Primary Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1968
+msgid "Change the Primary Color of the SVG Icons set above."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1978
+msgid "Upload Icon Secondary Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1980
+msgid "Change the Secondary Color of the SVG Icons set above."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1990
+msgid "Upload Icon Quarterly Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:1992
+msgid "Change the Quarterly Color of the SVG Icons set above."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2001
+msgid "Upload Icon Distance Horizontal"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2002
+#: includes/modules/FormField/FormField.php:2040
+msgid "Set the distance from the edge"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2020
+msgid "Upload Icon Distance Vertical"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2021
+#: includes/modules/FormField/FormField.php:2059
+#: includes/modules/FormField/FormField.php:2185
+msgid "Set the distance from the top or bottom"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2039
+msgid "Upload Description Horizontal"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2058
+msgid "Upload Description Vertical"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2078
+msgid "Upload Section Drag Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2080
+msgid "Change the color of the background when dragging the media over the section."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2093
+msgid "Preview Background Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2095
+msgid "Change the color of the background of the preview box that appears."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2104
+msgid "Image Preview Width"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2105
+#: includes/modules/FormField/FormField.php:2124
+msgid "When a image is uploaded, there will be a preview - set the width of it here"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2123
+msgid "Image Preview Height"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2142
+msgid "Upload Remove Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2145
+msgid "Choose the icon to appear when you want to remove an image from the upload"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2153
+msgid "Upload Remove Icon Size"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2154
+msgid "Set the size of the remove icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2173
+msgid "Upload Remove Icon Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2175
+msgid "Change the color of the icon that appears on the preview to remove it."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2184
+msgid "Image Preview Distance Vertical"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2203
+msgid "Image Preview Distance Horizontal"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2204
+msgid "Set the distance from the left"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2224
+msgid "Progress Bar Style"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2230
+msgid "Stripes"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2231
+msgid "Solid Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2233
+msgid "Choose the appearance of the progress bar."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2240
+msgid "Progress Bar Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2242
+msgid "Change the color of the progress bar background."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2251
+msgid "Progress Bar Height"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2252
+msgid "Set the height of the progress bar"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2270
+msgid "Progress Bar Width"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2271
+msgid "Set the width of the progress bar"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2290
+msgid "Edit Remove Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2293
+msgid ""
+"Choose the icon to appear when you want to remove an image from the edit "
+"image section"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2302
+msgid "Edit Remove Icon Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2304
+msgid "Change the color of the edit remove icon."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2314
+msgid "Edit Remove Icon Background Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2316
+msgid "Change the background color of the edit remove icon."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2326
+msgid "Edit Remove Icon Font Size"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2327
+msgid "Set the font size of the edit remove icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2349
+msgid "Show Upload Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2357
+msgid "Choose if you want to show an icon or not with the upload option"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2362
+msgid "Upload Icon Style"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2367
+msgid "Document"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2368
+msgid "Camera"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2369
+msgid "Upload"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2370
+msgid "Upload Circle"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2371
+msgid "Custom Upload"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2373
+msgid ""
+"Choose either one of our premade icons for the upload or choose to upload "
+"your own."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2379
+msgid "Icon Upload"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2383
+msgid "Upload an icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2384
+msgid "Choose an icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2385
+msgid "Set As icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2387
+msgid ""
+"Upload your desired icon, or type in the URL to the image you would like to "
+"display."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2395
+msgid "Icon/Text Alignment"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2400
+#: includes/modules/FormField/FormField.php:2426
+#: includes/modules/FormField/FormField.php:2443
+msgid "Left"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2401
+#: includes/modules/FormField/FormField.php:2444
+msgid "Right"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2403
+msgid "Choose the alignment for your file upload icon/text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2409
+msgid "Upload Section Padding"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2410
+msgid "Set the padding for the section"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2419
+msgid "Upload Icon Drag Animation"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2424
+msgid "Wobble"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2425
+msgid "Vibrate"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2427
+msgid "Jello"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2428
+msgid "Pulsate"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2430
+msgid "Choose the animation of the icon when you drag the media over."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2436
+msgid "Field Label Position"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2446
+msgid "Select the position of the field label."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2453
+msgid "Radio/Checkbox Field Style"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2458
+msgid "Default Divi"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2461
+msgid "Choose the style of the radio or checkbox field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2477
+msgid "Make Radio/Checkbox Options a grid or in one line?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2485
+msgid "Choose if you want the buttons to be inline or not"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2491
+msgid "Enable Select2? (make sure to enable in Form module too)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2499
+msgid ""
+"If you want to have Select2 - enable this. Make sure you enable it here but "
+"also on the parent form - which will then only load the code needed (save "
+"speed if not using)"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2505
+msgid "Show Radio Options in one line?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2513
+msgid ""
+"If you want the Radio/Checkbox values to be one one line and equally take "
+"up the space, enable this. We will use display:flex to make this happen"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2519
+msgid "Gap Between Radio/Checkbox Items"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2520
+msgid "Set the gap between the radio or checkbox values"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2538
+msgid "Grid Columns"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2543
+msgid "1 Column"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2544
+msgid "2 Columns"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2545
+msgid "3 Columns"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2546
+msgid "4 Columns"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2548
+msgid ""
+"If you want to show the options in grid columns, please select the columns "
+"count."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2556
+msgid "Radio/Checkbox Padding"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2558
+msgid "Set padding for each individual Radio/Checkbox"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2566
+msgid "Radio/Checkbox Margin"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2568
+msgid "Set margin for each individual Radio/Checkbox"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2577
+msgid "Enable Placeholder?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2585
+msgid ""
+"If you want to enable a placeholder (default is the label text), enable "
+"this."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2590
+msgid "Custom Placeholder Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2592
+msgid ""
+"By default we will get the field name as the placeholder. If you want it to "
+"be custom text, add it here."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2600
+msgid "Add a description?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2608
+msgid "If you want to add a description for the field, enable this."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2612
+msgid "Description Location"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2616
+msgid "Above"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2617
+msgid "Below"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2620
+msgid "Choose where the description text appears."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2625
+msgid "Description Text"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2629
+msgid "Add a description for your field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2635
+msgid "Enable an Icon on the input?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2644
+msgid "Enable this if you want to have an icon on the input field."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2682
+msgid "Password Secondary Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2683
+msgid ""
+"If you are using a password field - choose the secondary icon when you "
+"click to show."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2692
+msgid "Password Secondary Icon Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2701
+msgid "Field Label Width"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2712
+msgid "Select the width of the field label."
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2717
+msgid "Enable"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2729
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of "
+"the rules below are fulfilled<br><strong>Note:</strong> Only fields with an "
+"unique and non-empty field ID can be used"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2733
+msgid "Relation"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2738
+msgid "Any"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2745
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2749
+msgid "Rules"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2756
+msgid "Date Input Icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2759
+msgid "Choose the Date Input icon"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2766
+msgid "Date Input Icon Font Size"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2782
+msgid "Date Input Icon Color"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2784
+msgid "Change the color of the icon that appears on the input"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2822
+msgid "Autocomplete field?"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2830
+msgid "Define whether the field should be autocompleted by the browser"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2847
+#: includes/modules/FormField/FormField.php:2861
+msgid "Taxonomy Mapping"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2854
+#: includes/modules/FormField/FormField.php:2868
+msgid "Choose Taxonomy field to map with field"
+msgstr ""
+
+#: includes/modules/FormField/FormField.php:2866
+msgid "No Taxonomy available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Form Builder"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://diviengine.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create complex forms with the Divi Builder"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Divi Engine"
+msgstr ""

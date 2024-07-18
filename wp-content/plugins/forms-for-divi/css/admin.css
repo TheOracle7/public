@@ -1,0 +1,43 @@
+#form-entry-container .dashicons-no::before {
+	color: red;
+}
+
+#form-entry-container .dashicons-yes::before {
+	color: green;
+}
+#form-entry-container form.thrash {
+	display: inline;
+}
+#form-entry-container form.thrash button {
+	border: none;
+	padding: 0;
+	color: #2271b1;
+	cursor: pointer;
+}
+
+.wpt-entry-actions .dashicons {
+	vertical-align: middle;
+}
+
+.wpt-form-entry-panel {
+	position: relative;
+	overflow: auto;
+	margin: 16px 0;
+	padding: 23px 10px 0;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+	background: #fff;
+	font-size: 13px;
+	line-height: 1.7;
+	padding-bottom: 15px;
+}
+.wpt-form-entry-panel-content {
+	margin-left: 15px;
+}
+.wpt-form-entry-panel-content h3 {
+	margin-top: 0;
+}
+
+.wpt-entry-action {
+	text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.wpt-checkbox-container .mdc-text-field-helper-line {
+	padding: 0 16px;
+}
+
+.wpt-checkbox-container .mdc-text-field {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	opacity: 0;
+}

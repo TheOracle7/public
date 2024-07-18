@@ -1,0 +1,12 @@
+.wpt-form-consent-field-container .mdc-text-field {
+    position: absolute;
+    height: 0 !important;
+}
+
+.wpt-form-consent-field-container .wpt_form_consent_field_checkbox_label_container {
+    display: flex;
+}
+
+.wpt-form-consent-field-container .wpt-consent-label {
+    padding-left: 16px;
+}

@@ -1,0 +1,297 @@
+VERSION 2.3.1 - 13/04/23
+* MOD - New setting "Enable Placeholder" in form field. If you disable this, we will remove the placeholder.
+* MOD - Changed setting name "Placeholder Text" to be "Custom Placeholder Text" - if left empty, it will show the field name. 
+* MOD - Added the hooks to handle notification email recipient conditionally by submitted data
+* MOD - Added  the settiong for edit permission
+* MOD - Updated max file upload count description
+* MOD - Scroll to top of the form after going to the next step
+* FIX - Fix styles issue with wysiwyg editor
+* FIX - Only 1 file was sent via email on contact form
+* FIX - "New Message Arrived" is in Email body when email template is empty though Email Title is set
+* FIX - Bloom Subscribe checkbox doesn't hide after ajax submission
+* FIX - Fix Google Map ACF field mapped Address issue when it is copied
+* FIX - Taxonomy slug is sent via email instead of name
+* FIX - Fix create form entry issue
+* FIX - Remove File/Image on Image/File field not working when logged in
+* FIX - Icon position problem
+*
+VERSION 2.3 - 21/03/23
+* NEW ADDITION/MOD - Improved file/image upload/edit feature
+            - Remove icon to delete file/image on edit form
+            - Change the sort order from frontend 
+            - When editing the post and you upload more images, before it would override them all. Now it will add more rather than remove the ones that were there. 
+* NEW ADDITION - Number Input field type
+* MOD - Form Module, added a setting to customise the date picker font appearance
+* MOD - Form & Form Field Module, added a setting to customise the required font appearance
+* MOD - Add help videos for all modules at Divi Form Builder
+* MOD - Add Mapping compatibility for signature field in Post creation form
+* MOD - Added a setting to clear the form on ajax submission 
+* MOD - Form field design settings will work on select2 too 
+* MOD - Added a setting to customise the color of the select arrow in form field design tab
+* MOD - Added a setting to add/remove de_fb_ prefix to fields
+* MOD - Added styling options for the content > text field. Added settings in design tab of form and form field
+* MOD - Added styling options for the basic captcha
+* MOD - Add Setting for Email Template format is HTML
+            - When using only HTML in the email template we have a new setting that wont add <br> tags that you will want if it is only simple fields (no HTML)
+* MOD - Multi Step Form: Add Setting(Go to next step when change option on multistep form?) to go to next step when changing on a Radio/Select option.
+* MOD - Added a setting to show/hide Add Media Button on wysiwyg editor - text field
+* MOD - Added settings to make bloom subscribe checkbox required
+* MOD - Edit Post: Will only appear if the user can edit the post and is the author - or administrator. 
+            - New setting in form module to display the "No Permission Notice" when they cannot edit.
+* FIX - Other forms not submitting when pressing the enter key (like search in header)
+* FIX - DateTimePicker Month names regional issue
+* FIX - File upload issue
+* FIX - Required Field validation issue on Next Button for multistep form
+* FIX - Keep user inputs on submission failed
+* FIX - Prevent Hide form on submission failed
+* FIX - Multistep form issue when multiple forms are on page
+* FIX - Text alignment not working (general text in design tab, not individual text settings)
+* FIX - Image upload preview background and remove icon styling
+* FIX - Remove template tag(%%field_id%%) from email when field is not submitted by conditional logic
+* FIX - Fixed some W3C errors
+* FIX - Form Entry table format and csv export(special character) issue
+* FIX - PHP error
+* FIX - Form module field design not working as child does
+* FIX - Trim input fields for validation
+* FIX - Hide Subscribe checkbox after form submission success
+* FIX - Multistep Form Space issue
+* FIX - Add Setting to fix field icons moving issue when it has error
+* FIX - File/Image field default value issue for Edit form
+* FIX - Reorganize ACF field & handle inactive acf fields
+* FIX - Bloom Subscription issue for ajax submission
+* FIX - Hide Form for submission success
+* FIX - Scroll top offset to Form after submission success
+* FIX - ACF mapped fields doesn't work with ACF dynamic content
+* FIX - Files upload for group/gallery ACF field assigned to User
+* FIX - Can't select subscribe checkbox when there are multiple forms with subscribe enabled
+* FIX - Reupload file doesn't work for mapped acf field(file/image)
+* FIX - Fixed php 8 issues
+* FIX - Make User Login field on edit form as readonly
+* FIX - Confirm Password error message is appear repeatly
+* FIX - Remove passwords in emails unless there is password field in template
+*
+VERSION 2.2 - 23/11/22
+* FIX - Image save issue on edit post form
+* FIX - Reply To in Email Notification doesn't work on ajax submission
+* FIX - Mapped value issue for several same elements of mapping on submit
+* FIX - Required for file/image upload field on edit post form
+* FIX - HTML Special characters in Email Title Field
+* FIX - Google Map acf field value is wrong on edit post form
+* FIX - Prevent Form submit when press Enter key
+* FIX - Remove Script tag from textarea field
+* FIX - Fixed email not sending when you specify the field ID for the email as capitals
+* FIX - Show captcha field at last step only in multistep form
+*
+VERSION 2.1.1 - 04/11/22
+* MOD - Added option to add spacing and borders to the whole form as well as the form field wrapper. (whole form includes the title and progress bar for multistep for example)
+* MOD - Database Entries: Delete multiple forms from the database, checkbox to choose
+*
+VERSION 2.1 - 03/11/22
+* NEW ADDITION - Post Creation Form: mapping google map acf field with autocomplete field
+* MOD - Database Entries: Delete multiple form entries from the database, checkbox to choose
+* MOD - Database Entries: When you change the form name, it will update the form name in the database entries section in our settings
+* MOD - Setting to define autocomplete attribute in Divi Form Fields
+* FIX - Fix JS error for form submission
+* FIX - Select field border style issue
+* FIX - Highlighted Date Style on calendar
+* FIX - Datepicker/Timepicker input field icon style
+* FIX - admin CSS conflict
+* FIX - Security issue from the form submit ( use script or html in input/textarea field )
+* FIX - Image Upload meta data is not showing
+* FIX - Unable to submit/next after validation
+* FIX - Signature field initialized when resizing/validation
+* FIX - Image Checkbox/Radio for mapped field issue
+* FIX - Uncheck meta values on Edit Post form issue
+* FIX - Delete button was showing in front of the edit post modal
+* FIX - Submit button is disabled on Edit Post modal
+* FIX - Couldn't close Edit popup modal since the close icon was getting overlay by the header
+* FIX - Wrong alignment when required field is shown at the datetime picker
+* FIX - Missing required message fields for datepicker and datetimepicker
+* FIX - Patched validation method to fix label position when icon exists
+* FIX - Styling options for required label mark
+* FIX - Validation on next button click for multistep form
+* FIX - javascript error when there is no map autocomplete field
+* FIX - Conditional Logic issue on Edit Post Modal
+* FIX - Conditional Logic issue for uppercase letter of Field ID
+* FIX - Multistep previous and next icons where not showing up properly
+* FIX - Renamed step icon to progress bar step icon
+* FIX - Hide whole form (title and steps) when thank you message is shown
+* FIX - Extra css was affecting arrows at wp backoffice
+* FIX - Radio button active dot wasn't changing the colour at design options
+* FIX - FormField on line  2812 - Trying to get property 'ID' of non-object
+*
+VERSION 2.0.4.1 - 22/09/22
+* FIX - Small bug with required image and checkbox fields not submitting
+*
+VERSION 2.0.4 - 22/09/22
+* MOD - Improvement in our required checking. We now have realtime field checking for valid fields like email or number only. 
+* MOD - Settings to define required and failed pattern messages for each input
+*
+VERSION 2.0.3 - 20/09/22
+* FIX - PHP notice when ajax submit
+* FIX - Email empty lines issue when ajax submit
+* FIX - Form Layout break issue
+* FIX - Multistep form button issue
+* FIX - Multistep form height issue when image is added
+* FIX - Adding custom required message
+* FIX - Change default required message to be "This field is required."
+*
+VERSION 2.0.2 - 12/09/22
+* FIX - Missing file commit for Next button issue for multistep
+* FIX - Multistep Progress bar issue for more than 1 forms in one page
+* FIX - Form fields are hidden when off multistep option on visual builder
+* 
+VERSION 2.0.1 - 07/09/22
+* FIX - Next button issue when there is required fields in other step
+* FIX - Add multiple custom taxonomy terms with input field and display issue
+* FIX - Broken layout issue with speciality section
+*
+VERSION 2.0 - 01/09/22
+* NEW ADDITION - Multistep Form
+* NEW ADDITION - Hide Form Until Loaded feature and its preloading animations
+* NEW ADDITION - Added exclude options for checkbox/radio/select auto-detect
+* MOD - Add new taxonomy terms for taxonomy mapped input type field
+* MOD - Improved edit form with all the fields - tested. Works better on page and also modal. Shows preview of the images now to edit.
+*
+VERSION 1.2.5.2 - 05/08/22
+* FIX - License key deactivate issue
+* FIX - Register form password confirm validation issue
+* FIX - Password field min/max input length setting for Registration form
+* FIX - PHP error
+*
+VERSION 1.2.5.1 - 01/08/22
+* FIX - Fix small merge issue
+* FIX - Recaptcha v2 Submit issue
+* FIX - PHP 7.4 issue
+* FIX - Add Project post type back
+* FIX - License Checker issue
+*
+VERSION 1.2.5 - 22/07/22
+* NEW ADDITION - Image Radio/Checkbox Type
+* MOD - moved "Hide Form After Successful Submission?" to Main Options Toggle
+* FIX - EditPostButton module issue(Modal/Page settings display issue)
+* FIX - Form Field Mapping for Project Post Type
+* FIX - Edit Modal Data not getting
+* FIX - Fix our code for text input focus
+* FIX - Fix Post submit issue on multiple post forms in same page
+* FIX - Form not hiding with layout notice and NOT ajax submission
+* FIX - Fix PHP Notice
+* FIX - Fix google v3 recaptcha issue
+* FIX - Fix Conditional logic for number issue
+* FIX - Divi Layout result is not showing when ajax submit
+* FIX - Fix df_process_uploaded_files hook issue
+*
+VERSION 1.2.4 - 25/04/22
+* NEW ADDITION - Post Object ACF field mapping
+* MOD - Disabling submit button until required fields are filled(option added)
+* FIX - hide after success submission for ajax submission was not working
+* FIX - Prevent submit the form when captcha(simple captcha) is empty
+* FIX - Handling Captcha error for ajax submission
+* FIX - Required Field checking issue and scrolling to required field
+* FIX - Required Field issue for its conditional logic
+* FIX - Project custom post was not being shown on post creation
+*
+VERSION 1.2.3 - 07/04/22
+* FIX - JS error
+*
+VERSION 1.2.2 - 07/04/22
+* NEW ADDITION - New setting to hide form on submit success message
+* NEW ADDITION - Added CC and BCC
+* MOD - Made the suibmit button disabled on submission
+* MOD - Added ability to add fields in the subject of the form notifications
+* MOD - Moved CSS files out of "styles" folder that are not needed in there 
+* MOD - upload files to email if no template is specified
+* FIX - Subject being uploaded file
+*
+VERSION 1.2.1 - 10/03/22
+* NEW ADDITION - Gallery Image Upload with mapping ACF Repeater/Group/Gallery fields. Just choose the ACF field and we will check if it is a group or gallery type
+* MOD - Email Subject with merge tags
+* MOD - Add Reply-to option for confirmation email setting
+* MOD - New settings to change text of
+            - login already logged in text
+            - register, password confirm error text
+* MOD - Added settings to customise the date and time picker formats
+* FIX - Adding space between fields on email body when did not want (adding <br>)
+*
+VERSION 1.2 - 26/01/22
+* NEW ADDITION - Ajax Submission for Contact Form ONLY - we will add for post creation etc later
+    - new setting to define the button text when submitting the form as ajax
+* NEW ADDITION/MOD - Changed labels for email and added confirmation for the sender
+    - Email Notifications & Confirmation
+* NEW ADDITION - Email notification & confirmation for all form types
+    - Added options to send the email to the author of the current post and also specify it using ACF for template files - check update video on YouTube or Docs
+* NEW ADDITION - Better Image Upload Field & File Upload
+  - Upload files only after submit and spam check
+  - Multiple uploads with preview
+    - Preview Image
+    - Preview Name
+    - Preview Size
+    - Preview Cancel
+  - Progress bar when uploading
+  - Image or File upload will appear as an attachment to the email
+  - The featured image will show IN the email body
+* NEW ADDITION - Signature Field 
+* NEW ADDITION - Custom Action URL for the Custom Form
+* MOD - Image or Signature Field upload will appear on email if you add the %%field_id%%
+    - Signature & Featured image will show IN the email body
+* MOD - Added setting to customise the padding got your labels and descriptions
+* MOD - Added setting to customise the success and failed notices
+* MOD - Made select2 scripts ONLY load if you enable in the form module
+* MOD - Changed the sign up to newsletter checkbox to be the same as Divi appearance
+    - new settings in field options (design tab) to customise this
+* FIX - Fixed multiple emails sending issue
+* FIX - Conflict with Divi Mobile theme customiser
+* FIX - Select Placeholder HTML messed up
+* FIX - PHP warning with PHP 8
+*
+VERSION 1.1 - 22/12/21
+* NEW ADDITION - Added setting to add icon on the input (layout options)
+* NEW ADDITION - Password show/hide icon (layout options)
+* NEW ADDITION - Added new field type (Content)
+    - Text: you can add text editor content
+    - Code: You can add code such as CSS and JS
+    - Divi Library: You can create a layout in the Divi Library and then show this here
+* NEW ADDITION - Added setting to add a description above or below the field
+* NEW ADDITION - Recaptcha v2 and v3
+* NEW ADDITION - Added hidden field
+    - Add Page Name, Page URL, ACF or Custom Text
+    - This can be used to have a form in the Theme Builder and when submitted you know which post it was submitted from.
+* NEW ADDITION - Added Honeypot captcha setting
+* NEW ADDITION - Send Reply Email to sender, make the body different to the one sent to admin
+* MOD - Added setting to define the select placeholder - default to "-- Select Option --" and is disabled by default
+* MOD - Put modules into folder "Divi Form Builder"
+* MOD - Sender Name and Email from form fields
+* MOD - DatePicker & TimePicker language    
+* MOD - Scroll Down to form after submission
+* FIX - radio button style/appearance
+* FIX - Google reCAPTCHA site key setting for v2
+* FIX - Resubmission issue when reloading.
+* FIX - Textarea Placeholder issue on Visual Builder
+* FIX - TinyMCE editor preview in Visual Builder
+* FIX - Radio button icon issue
+* FIX - Required Checkbox/radio group
+*
+VERSION 1.0.5 - 26/11/21
+* FIX - Conditional Logic was not working
+* FIX - Custom Contact Email issue
+* FIX - Spacing issue for mapping field
+* FIX - File/Image upload with ACF Field frontend form submission
+*
+VERSION 1.0.4 - 24/11/21
+* MOD - Added CSS to remove border and background from date calender header
+* FIX - Contact Form doesn't send email to admin
+* FIX - Add form submit result to "df_before_redirect" hook
+* FIX - Placeholder text was not working on textarea field type
+*
+VERSION 1.0.3 - 23/11/21
+* MOD - Changed wording on error messages for recipient error message
+* FIX - 404 error on form submission when using ID's that are reserved for WordPress (https://www.infinitypp.com/wordpress/easily-fix-wordpress-post-request-wont-return-return-404-form-submission/)
+*
+VERSION 1.0.2 - 22/11/21
+* FIX - php error
+*
+VERSION 1.0.1 - 22/11/21
+* Test License
+*
+VERSION 1.0 - 22/11/21
+* Initial Beta Test Release

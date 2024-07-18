@@ -1,0 +1,14 @@
+.wpt_form_select_menu_field .mdc-list {
+	padding: 0;
+}
+
+.wpt_form_select_menu_field .mdc-select {
+	width: 100%;
+}
+
+.wpt-dropdown-container .mdc-text-field {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	opacity: 0;
+}

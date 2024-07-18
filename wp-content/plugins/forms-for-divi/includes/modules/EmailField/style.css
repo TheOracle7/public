@@ -1,0 +1,21 @@
+.wpt-input-field-container .mdc-text-field-helper-line {
+	flex-direction: column;
+}
+
+.wpt-input-field-container
+	.mdc-text-field-helper-text.mdc-text-field-helper-text--validation-msg {
+	display: none;
+}
+
+.wpt-input-field-container
+	.mdc-text-field-helper-text.mdc-text-field-helper-text--validation-msg[role="alert"] {
+	display: block;
+}
+
+.wpt-input-field-container label {
+	display: block;
+}
+
+.wpt-input-field-container .wpt-input-field {
+	width: 100%;
+}
